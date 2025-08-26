@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: school-management
+
+  cloud:
+    config:
+      enabled: true
+
+# Optional: Actuator settings (if you're using Spring Boot Actuator)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
