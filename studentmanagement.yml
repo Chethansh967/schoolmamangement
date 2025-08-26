@@ -5,7 +5,7 @@ spring:
   application:
     name: student-management
 
-    datasource:
+  datasource:
     url: jdbc:postgresql://localhost:5434/studentdb
     username: postgres
     password: root
@@ -27,5 +27,3 @@ management:
     web:
       exposure:
         include: "*"
-
-   
